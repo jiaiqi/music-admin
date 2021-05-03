@@ -7,8 +7,8 @@ import { Message } from "element-ui"
 axios.defaults.timeout = 10000 // 超时时间
 // axios.defaults.baseURL = process.env.API_HOST || 'http://http://119.45.133.126:7001'
 // axios.defaults.baseURL = process.env.API_HOST || '/api/'
-axios.defaults.baseURL = 'http://localhost:7001'
-// axios.defaults.baseURL = 'http://egg.jiaiqi.cn:7001'
+// axios.defaults.baseURL = 'http://localhost:7001'
+axios.defaults.baseURL = 'http://egg.jiaiqi.cn:7001'
 
 // http request 拦截器
 axios.interceptors.request.use(config => {
